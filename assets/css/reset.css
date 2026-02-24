@@ -1,0 +1,89 @@
+/* Reset CSS baseado no reset de Andy Bell */
+
+/* Remove todos os estilos padrão do navegador */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove margens padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+blockquote,
+dl,
+dl,
+ul,
+ol,
+li,
+fieldset,
+legend,
+textarea,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove listas padrão */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Remove estilos padrão de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove estilos padrão de imagens */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Remove bordas padrão */
+fieldset {
+    border: none;
+}
+
+/* Remove estilos padrão de botões */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Remove estilos padrão de inputs */
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+
+/* Define fonte padrão */
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #222;
+}
+
+/* Remove animações e transições para pessoas que preferem isso */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
