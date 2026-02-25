@@ -46,23 +46,23 @@
     font-weight: 500;
 }
 
-.hero-buttons .btn {
+.btn {
     padding: 10px 40px;
     text-align: center;
     border-radius: 30px;
     transition: background-color 0.3s;
 }
 
-.hero-buttons .btn-outlined {
+.btn-outlined {
     border: 2px solid #ffffff;
 }
 
-.hero-buttons .btn-filled {
+.btn-filled {
     color: #6329A2;
     background-color: #ffffff;
 }
 
-.hero-buttons .btn:hover {
+.btn:hover {
     color: #ffffff;
     background-color: #6329A2;
 }

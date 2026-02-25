@@ -1,0 +1,44 @@
+.categories-section {
+    width: calc(100% - 80px);
+    margin: 0 auto;
+    height: 580px;
+    padding: 40px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-card {
+    width: 317px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.casual-card {
+    background: url(../../images/banners/tenis-casual.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.esporte-card {
+    background: url(../../images/banners/tenis-esporte.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.moderno-card {
+    background: url(../../images/banners/tenis-moderno.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.futurista-card {
+    background: url(../../images/banners/tenis-futurista.png);
+    background-size: cover;
+    background-position: center;
+}
