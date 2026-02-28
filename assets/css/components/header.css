@@ -45,7 +45,7 @@
     align-items: center;
     width: 100%;
 
-    padding-left: clamp(0px, calc(100% - 950px), 189px);
+    padding-left: clamp(32px, calc(100% - 950px), 189px);
 }
 
 .nav-center ul {

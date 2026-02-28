@@ -68,7 +68,7 @@
 .grid-section-4 {
     background: url(../../images/banners/mulher-grid.png);
     background-size: cover;
-    background-position: 15% 50%;
+    background-position: 30% 50%;
     grid-area: 2/3/4/3;
 }
 
